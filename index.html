@@ -648,39 +648,43 @@
 
 <strong class="modal-title">Leave your contacts and we will call you back</strong>
 
-<form name="modal_form">
-<label for="modal_name">Name</label>
+<form class="modal-form form" name="modal_form">
+<label class="form-label" for="modal_name">Name</label>
 <div class="modal-form-container">
-<input class="in-modal-name" type="text" name="modal_name" id="modal_name">
-<svg class="in-modal-name-icon" width="18" height="18">
+<input class="in-modal" type="text" name="modal_name" id="modal_name">
+<svg class="in-modal-icon" width="18" height="24">
 <use href="./images/icons.svg#name"></use>
 </svg>
 </div>
 
 
-<label for="modal_phone">Phone</label>
+<label class="form-label" for="modal_phone">Phone</label>
 <div class="modal-form-container">
-<input class="in-modal-phone" type="text" name="modal_phone" id="modal_phone">
-<svg class="in-modal-phone-icon" width="18" height="24">
+<input class="in-modal" type="text" name="modal_phone" id="modal_phone">
+<svg class="in-modal-icon" width="18" height="24">
 <use href="./images/icons.svg#phone"></use>
 </svg>
 </div>
 
 
-<label for="modal_email">Email</label>
+<label class="form-label" for="modal_email">Email</label>
 <div class="modal-form-container">
-<input class="in-modal-email" type="text" name="modal_email" id="modal_email">
-<svg class="in-modal-email-icon" width="18" height="24">
+<input class="in-modal" type="text" name="modal_email" id="modal_email">
+<svg class="in-modal-icon" width="18" height="24">
 <use href="./images/icons.svg#email"></use>
 </svg>
 </div>
 
-<label for="modal_comment">Comment</label>
+<label class="form-label" for="modal_comment">Comment</label>
 <textarea 
+class="form-textarea-comment"
 name="modal_comment" 
 id="modal_comment" 
 rows="8" 
 placeholder="Text input"></textarea>
+<svg class="textarea-icon" width="16" height="16">
+  <use href=""></use>
+</svg>
 
 <label>
   <input class="in-modal-checkbox" type="checkbox" name="modal_agreement">
