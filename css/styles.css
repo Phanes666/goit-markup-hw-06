@@ -1055,9 +1055,12 @@ color: #2E2F42;
   transform: translateY(-50%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 pointer-events: none;
+fill: var(--color-txt);
 
 }
-
+.in-modal-icon:focus {
+  fill: var(--logo-text-color);
+}
 
 .form-textarea-comment {
   display: block;
