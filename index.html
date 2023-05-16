@@ -618,16 +618,16 @@
           </ul>
         </div>
 
-        <div>
-          <p>Subscribe</p>
-          <form class="" name="footer-form">
-          <label class="">
-            <input class="" name="" placeholder="">
+        <div class="footer-form-container">
+          <p class="foot-form-title">Subscribe</p>
+          <form class="sub-foot-form" name="footer-form">
+          <label class="sub-foot-label">
+            <input class="in-sub-foot" name="e-mail" placeholder="E-mail">
           </label>
-<button type="submit" class="">
-  <p>Subscribe</p>
-  <svg class="" width="" heigth="">
-    <use href=""></use>
+<button class="foot-form-button" type="button">
+  <p class="button-form-text">Subscribe</p>
+  <svg class="foot-form-icon" width="24" heigth="24">
+    <use href="./images/icons.svg#frame"></use>
   </svg>
 </button>
 </form>
@@ -682,13 +682,12 @@ name="modal_comment"
 id="modal_comment" 
 rows="8" 
 placeholder="Text input"></textarea>
-<svg class="textarea-icon" width="16" height="16">
-  <use href=""></use>
-</svg>
 
-<label>
+
+<label class="label-checkbox">
   <input class="in-modal-checkbox" type="checkbox" name="modal_agreement">
-  <span class="in-modal-checkbox-icon">I accept the terms and conditions of the <a href="">Privacy Policy</a></span>
+  <span class="in-modal-checkbox-text">I accept the terms and conditions of the 
+    <a class="check-policy" href="">Privacy Policy</a></span>
 </label>
 
 <button class="modal-button btn hero-button" type="submit">Send</button>
